@@ -147,6 +147,15 @@ To create your own translations, check out [country-list](https://github.com/ump
 
 ---
 
+## Modifying
+
+Make sure you're using an updated version of Node (I'm using `v22.13.1` with nvm).
+```
+nvm use v22.13.1
+npm install
+npm run build
+```
+
 ## Attribution
 
 If you need more detailed maps or more options for your data, there is a great open source project called [datawrapper](https://github.com/datawrapper/datawrapper) out there, with a lot more power than svgMap.
