@@ -211,12 +211,12 @@
 
   .svgMap-country {
     stroke: $countryStrokeColor;
-    stroke-width: 1;
+    stroke-width: 1.5;
     stroke-linejoin: round;
     vector-effect: non-scaling-stroke;
     transition:
-      fill 250ms,
-      stroke 250ms;
+      fill 200ms,
+      stroke 200ms;
 
     &[data-link] {
       cursor: pointer;
@@ -224,6 +224,7 @@
 
     @media (hover: hover) {
       &:hover {
+        fill: #40bcf4;
         stroke: $mapActiveStrokeColor;
         stroke-width: $mapActiveStrokeWidth;
       }

@@ -3,8 +3,8 @@ $textColor: #111 !default;
 $textColorLight: #777 !default;
 
 // Map
-$oceanColor: #d9ecff !default;
-$mapActiveStrokeColor: #333 !default;
+$oceanColor: #14181c !default;
+$mapActiveStrokeColor: rgba(0, 0, 0, .25) !default;
 $mapActiveStrokeWidth: 1.5 !default;
 $blockZoomNoticeColor: #fff !default;
 $blockZoomNoticeBackgroundColor: rgba(0, 0, 0, 0.8) !default;
@@ -27,4 +27,4 @@ $mapTooltipBoxShadowColor: rgba(0, 0, 0, 0.2) !default;
 $continentControlsBoxShadow: 0 0 0 2px rgba(0, 0, 0, 0.1) !default;
 
 // Country
-$countryStrokeColor: #fff !default;
+$countryStrokeColor: rgba(0, 0, 0, .25) !default;

@@ -41,9 +41,9 @@ function svgMapWrapper(svgPanZoom) {
       mouseWheelKeyMessageMac: 'Press the [COMMAND] key to zoom',
 
       // Data colors
-      colorMax: '#CC0033',
-      colorMin: '#FFE5D9',
-      colorNoData: '#E2E2E2',
+      colorMax: '#00E054',
+      colorMin: '#007733',
+      colorNoData: '#303C44',
 
       // Color attribute for setting a manual color in the data object
       manualColorAttribute: 'color',
